@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Weather-App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name">
+            <button ><img src="Images/search.png" alt="search button"></button>
+        </div>
+        <div class="error">
+            <p>Invalid  city name</p>
+        </div>
+        <div class="weather">
+            <img src="Images/clouds.png" alt="" class="weather-icon">
+            <h1 class="temp">32°c</h1>
+            <h2 class="city">Nairobi</h2>
+            <h3 class="date">Wednesday 7th june 2023</h3>
+            <div class="details">
+                <div class="col">
+                    <img src="Images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="Images/wind.png" alt="">
+                    <div>
+                        <p class="wind">20 km/h</p>
+                        <p>Wind Speed </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="Script.js" defer></script>
+</body>
+</html>
