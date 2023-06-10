@@ -19,6 +19,7 @@ body {
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    margin-top: 5px;
 }
 
 .search {
@@ -105,5 +106,57 @@ body {
     margin-top: 10px;
     font-size: 14px;
     display: none;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    display: none;
+    margin-bottom: -45px;
+  }
+  
+  .created-by {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+  
+  .author-name {
+    font-weight: bold;
+  }
+  
+  .weather-info {
+    font-size: 12px;
+    color: #644747;
+}
+  
+
+/* mobile screens */
+@media (max-width: 576px){
+    .details {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .search input {
+        height: 35px;
+        border-radius: 30px;
+        font-size: 11px;
+    }
+    .search {
+        width: 100%;
+        gap: 5px;
+    }
+    .card {
+        width: 100%;   
+    }
+    .search button {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px; 
+    }
+    .col-2 {
+        margin-left: 35px;
+    }
+    .wind{
+        font-size: 21px;
+    }
 }
 
