@@ -160,3 +160,36 @@ body {
     }
 }
 
+/* smaller screen sizes */
+@media (max-width: 375px){
+
+    .search input {
+    height: 29px;
+    font-size: 7px;
+    margin-left: 1px;
+}
+
+.card {
+    width: 90%;
+    max-width: 375px;
+}
+
+.search {
+    gap: 20px;
+}
+
+.col-2 {
+    margin-left: 12px;
+}
+
+.details {
+    margin-top: 24px;
+}
+.search button {
+    width: 30px;
+    height: 30px;
+}
+
+}
+
+ 
